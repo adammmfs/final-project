@@ -13,5 +13,12 @@ git checkout master
 Lakukan merge dari upstream/master kedalam branch master
 git merge upstream/master
 
-Sekarang perubahan yang ada pada repo asli sudah dimasukkan ke dalam lokal branch kita, lakukan push apabila kamu ingin memperbaharui fork repo kamu. Hal yang perlu kita ingat bahwa sebelum kita melakukan perubahan, pastikan untuk memperbarui fork repo kita. Hal ini akan menghindari kita menemui konflik saat melakukan merge. Lakukan step 5 sampai 7 secara berkala agar kita selalu mendapatkan update terbaru dari repo asli.
+Sekarang perubahan yang ada pada repo asli sudah dimasukkan ke dalam lokal branch kita, lakukan push apabila kamu ingin memperbaharui fork repo kamu. Hal yang perlu kita ingat bahwa sebelum kita melakukan perubahan, pastikan untuk memperbarui 
+fork repo kita. Hal ini akan menghindari kita menemui konflik saat melakukan merge. 
+Lakukan step 5 sampai 7 secara berkala agar kita selalu mendapatkan update terbaru dari repo asli.
 https://www.kangsunu.web.id/2019/10/sinkronisasi-fork-repositori-di-github-agar-uptodate.html
+
+
+
+GIT BOOK thx pak @sakti
+https://git-scm.com/book/id/v1
