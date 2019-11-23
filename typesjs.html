@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+</head>
+<body>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Lato);
+
+        html {
+        height: 100%;
+        }
+
+        body {
+        background-color: #131313;
+        font-family: 'Lato', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        margin: 0;
+        }
+
+        h1 {
+        color: #ffffff;
+        font-size: 4em;
+        background-color: red;
+        }
+
+        .typed {
+        border-bottom: 2px solid #ffffff;
+        }
+
+        .typed-cursor{
+        opacity: 1;
+        animation: blink 0.7s infinite;
+        }
+
+        @keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+    </style>
+    <a href="https://blesstechno.blogspot.com/2018/12/website-interaktif-dengan-typedjs.html"> sumber </a>
+    <a href="https://codelatte.org/efek-mengetik-pada-javascript-typed-js/"> sumber lainnya </a>
+    <h1> <span id="typed" class="typed"></span></h1><br>
+
+    <script>
+        new Typed('#typed',{
+        strings : ['SELAMAT  HARI  GURU  EH','SELAMAT  ULANG  TAHUN !!!',' SEMOGA  JODOH  EH','SEMOGA  BERJUMPA  DI  SURGA  YANG  KEKAL  DAN  ABADI','SEMANGAT BELAJAR NYA ^-^ !!!!!!!'],
+        typeSpeed : 200,
+        delaySpeed : 200,
+        loop : true
+        });
+    </script>
+</body>
+</html>
